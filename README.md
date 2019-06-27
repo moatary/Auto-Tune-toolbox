@@ -49,7 +49,6 @@ THe results are shown by this code:
     each_tuning_param_values=[[8,9,10,12,20,30,35,40,50,70,75,80,90,100]]#, [3,4,5,6,7,8,9]] # [8,10,12,20,30,35,40] for gaussian filter tuning , and [1,2,3,4] for sobel function.
     comparetunes(Input_Image_to_tune, pipeline, inputs_to_eachfunc_assign_inputs2gettuned, each_tuning_param_values)
 
-
 ![GitHub Logo](/Example/Figure_1.png)
 Format: ![Alt Text](url)
 
