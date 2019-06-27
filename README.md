@@ -1,5 +1,7 @@
-# Auto-Tune-toolbox for numerical-analysis and machine-learning applications:
+# Fine-Tune tool for numerical-analysis and machine-learning applications:
 Fine-tune huge number of parameters in all modules and functions of your python code simultaenously. 
+
+Also, it is applied to an image-processing preprocessing function which has to fine-tune various edge-detection, convolution-filters and histgram-equalization thresholds to manually improve image-filtering threshold through visualization. (Please refer to the "Examples" directory.
 
 This respository is developed to ease the hyperparameter tuning and debugging difficulties arises when there are multiple parameters in different locations of your code that needs to be fine tuned. In the case of default functions in sklearn, one may use pipeline of functions and pass the pipeline to grid optimizer. But what about tuning variables that are everywhere in any types of class? The interactive feature of Python fascilitates such capability to handle tune all parameters from different sections of your code all at once.
 
