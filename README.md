@@ -36,11 +36,7 @@ To tune your variables and methods, first import the class "autotuner", then pas
 
 _____________________ Using tuner for comparing different filtering parameters in image-processing ._______________
 The "Example" directory, visualizes different parameter cases of gaussian filter and sobel detector.
-As an example of filtering a cat image,
-![GitHub Logo](/Example/cat.jpg)
-Format: ![Alt Text](url)
-
-THe results are shown by this code:
+As an example of filtering a cat image, the results are shown by this code:
 
     function1_in_pipeline=  sk.filters.gaussian # note: 1st input is always image, from 2nd input to end, one must be assigned as 'tune' input.
     Input_Image_to_tune= img
@@ -53,3 +49,6 @@ THe results are shown by this code:
 Format: ![Alt Text](url)
 
 
+The main cat image was:
+![GitHub Logo](/Example/cat.jpg)
+Format: ![Alt Text](url)
